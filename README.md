@@ -10,11 +10,11 @@ Flask-SQLalchemy
 Clone the repo. 
 Install dependencies.
 
-**Create DB from interactive shell**
-It is currently called `slingshotdb` in the config file, but you can rename it as you like.
+**Create DB from interactive SQL shell**
+DB is currently called `slingshotdb` in the config file, but you can rename it as you like.
 
+**Create Models in DB**
 1) Enter Python interactive shell within `flask-react-sqlalchemy-template`. 
-
 2) Run: 
 `>>>import models`
 `>>>from config import db`
