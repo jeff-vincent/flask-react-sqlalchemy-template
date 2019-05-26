@@ -13,6 +13,7 @@ Clone the repo.
 Install dependencies.
 
 **Create DB from interactive SQL shell**
+
 DB is currently called `slingshotdb` in the config file, but you can rename it as you like.
 
 **Create Models in DB**
