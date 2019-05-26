@@ -5,6 +5,8 @@
 Python3
 Flask
 Flask-SQLalchemy
+npm
+React
 
 **Usage:**
 Clone the repo. 
@@ -26,4 +28,4 @@ DB is currently called `slingshotdb` in the config file, but you can rename it a
 **Start Server**
 1) from root directory, run `python3 app.py`
 
-Note: It should be up and running at `http://0.0.0.0:5000'
+Note: It should be up and running at `http://0.0.0.0:5000`
