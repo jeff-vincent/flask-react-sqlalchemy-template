@@ -1,11 +1,10 @@
 from flask import Flask, request, render_template
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import desc
+from config import app, db
 import random
 
-# Local modules
 from models import User, Question, Answer
-from config import app, db
 
 def _create_db_user(db):
     # parse params

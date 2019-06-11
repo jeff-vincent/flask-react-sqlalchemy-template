@@ -3,7 +3,7 @@ from config import app, db
 import base_api
 
 
-""" Requests from web_user """
+""" Live Check for React """
 
 @app.route('/', methods=['GET'])
 def render_index():
@@ -42,6 +42,7 @@ def ask_question():
 @app.route('/answer-question', methods=['POST'])
 def handle_answer():
     return base_api._answer_question(db)
+
 
 
 if __name__ == "__main__":
