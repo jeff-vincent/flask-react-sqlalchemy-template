@@ -12,7 +12,7 @@ def _create_db_user(db):
     password = request.form.get('password')
     phone_number = request.form.get('phone_number')
     
-    session_id = 1
+    session_id = 0
 
     # Instantiate user object
     new_user = User(username=username, password=password, session_id=session_id, phone_number=phone_number)
@@ -84,7 +84,7 @@ def _logout_db_user(db):
     user = db.session.query(User).filter_by(session_id=session_id).first()
 
     # Reset Session ID to Falsy
-    session_id = None
+    session_id = 0
         
     # Update user's session ID in db
     user.session_id = session_id
